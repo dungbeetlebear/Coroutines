@@ -1,0 +1,2 @@
+# Coroutines
+使用Linux提供的ucontext库，围绕ucontext_t结构体和XXXcontext()封装一个协程库，目的在于解决高并发时的线程创建销毁、线程锁每次转换造成的性能开销。
